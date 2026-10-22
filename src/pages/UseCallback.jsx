@@ -9,7 +9,7 @@ const UseCallback=()=>{
     return(
         <>
         hello{count}
-        <button onClick={addcount}>count</button>
+        <button onClick={addCount}>count</button>
         </>
     )
 }

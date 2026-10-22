@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 const UseMemo=()=>{
     const[count,setCount]=useState(0);
@@ -18,8 +18,8 @@ const UseMemo=()=>{
         <>
         hello{count} square={addCount1}
         count2-{count2} s={addCount2}
-        <button onClick={(e)=>setCount(prev=>prev+1)}>count</button>
-         <button onClick={(e)=>setCount2(prev=>prev+1)}>count2</button>
+        <button onClick={()=>setCount(prev=>prev+1)}>count</button>
+         <button onClick={()=>setCount2(prev=>prev+1)}>count2</button>
         </>
     )
 }
