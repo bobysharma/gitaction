@@ -56,7 +56,7 @@ const Products = () => {
           </h1>
 
           <p className="mt-2 text-gray-500">
-            Organize your day, one task at a time.
+            Organize your day, one task at a time
           </p>
         </div>
 
